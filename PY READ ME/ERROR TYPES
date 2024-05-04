@@ -1,0 +1,70 @@
+Python errors can be broadly categorized into two types: syntax errors and runtime errors (exceptions). Syntax errors occur when the Python interpreter encounters code that does not conform to the language's syntax rules, while runtime errors occur during the execution of the program due to conditions that the program cannot handle.
+
+### Syntax Errors
+
+Syntax errors are raised when the Python interpreter encounters code that does not conform to the language's syntax rules. These errors are caught before the program is executed. Common syntax errors include:
+
+- **IndentationError**: Occurs when there is an incorrect indentation in the code. Python uses indentation to define blocks of code.
+  
+- **TabError**: Raised when the indentation consists of inconsistent tabs and spaces. Python requires consistent use of either tabs or spaces for indentation.
+
+- **SyntaxError**: Raised by the parser when a syntax error is encountered. This is the most general syntax error and can be caused by a variety of issues, such as missing parentheses, incorrect use of keywords, or misuse of operators.
+
+### Runtime Errors (Exceptions)
+
+Runtime errors, also known as exceptions, occur during the execution of the program due to conditions that the program cannot handle. These errors are caught during the execution of the program. Common runtime errors include:
+
+- **AssertionError**: Raised when the `assert` statement fails.
+
+- **AttributeError**: Raised when an attribute assignment or reference fails.
+
+- **EOFError**: Raised when the `input()` function hits the end-of-file condition.
+
+- **FloatingPointError**: Raised when a floating point operation fails.
+
+- **GeneratorExit**: Raised when a generator's `close()` method is called.
+
+- **ImportError**: Raised when the imported module is not found.
+
+- **IndexError**: Raised when the index of a sequence is out of range.
+
+- **KeyError**: Raised when a key is not found in a dictionary.
+
+- **KeyboardInterrupt**: Raised when the user hits the interrupt key (Ctrl+C or Delete).
+
+- **MemoryError**: Raised when an operation runs out of memory.
+
+- **NameError**: Raised when a variable is not found in the local or global scope.
+
+- **NotImplementedError**: Raised by abstract methods.
+
+- **OSError**: Raised when a system operation causes a system-related error.
+
+- **OverflowError**: Raised when the result of an arithmetic operation is too large to be represented.
+
+- **ReferenceError**: Raised when a weak reference proxy is used to access a garbage collected referent.
+
+- **RuntimeError**: Raised when an error does not fall under any other category.
+
+- **StopIteration**: Raised by the `next()` function to indicate that there is no further item to be returned by the iterator.
+
+- **SyntaxError**: Raised by the parser when a syntax error is encountered. This is a syntax error that occurs during runtime, typically due to changes in the Python version or environment.
+
+- **TypeError**: Raised when a function or operation is applied to an object of an incorrect type.
+
+- **UnboundLocalError**: Raised when a reference is made to a local variable in a function or method, but no value has been bound to that variable.
+
+- **UnicodeError**: Raised when a Unicode-related encoding or decoding error occurs.
+
+- **UnicodeEncodeError**: Raised when a Unicode-related error occurs during encoding.
+
+- **UnicodeDecodeError**: Raised when a Unicode-related error occurs during decoding.
+
+- **UnicodeTranslateError**: Raised when a Unicode-related error occurs during translation.
+
+- **ValueError**: Raised when a function gets an argument of correct type but improper value.
+
+- **ZeroDivisionError**: Raised when the second operand of a division or module operation is zero.
+
+Each of these errors provides valuable information about what went wrong and where in the code, helping developers to diagnose and fix the issue. Proper error handling and understanding the root cause of these errors are crucial for developing robust Python applications.
+
